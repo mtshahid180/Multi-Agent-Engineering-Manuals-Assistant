@@ -1,0 +1,28 @@
+# ---- Core: LLM + orchestration ----
+langchain>=0.3
+langchain-core>=0.3
+langchain-groq>=0.2
+langgraph>=0.2
+
+# ---- Embeddings (Google) + Vector DB ----
+langchain-google-genai>=2.0
+chromadb>=0.5
+langchain-chroma>=0.1
+
+# ---- PDF processing ----
+pymupdf>=1.24
+
+# ---- App, validation, config ----
+streamlit>=1.38
+pydantic>=2.7
+python-dotenv>=1.0
+
+# ---- Evaluation + testing ----
+pandas>=2.2
+pytest>=8.0
+
+# ---- Optional (core ke baad) ----
+# fastapi
+# uvicorn
+langchain-text-splitters>=0.3
+flask>=3.0
