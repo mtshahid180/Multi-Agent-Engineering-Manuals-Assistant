@@ -1,4 +1,3 @@
-"""Chunks ko embeddings mein badal kar ChromaDB mein save karna."""
 import os
 import time
 from pathlib import Path
