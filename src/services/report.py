@@ -1,4 +1,3 @@
-"""Final report (Markdown). Koi LLM call nahi: sirf formatting, isliye mehngi/ghalat nahi hoti."""
 from src.workflow.state import Citation, EngiState
 
 SAFETY_NOTES = [
