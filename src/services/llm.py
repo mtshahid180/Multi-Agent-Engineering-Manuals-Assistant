@@ -1,4 +1,3 @@
-"""Model configuration: ek hosted LLM (Groq) + Google embeddings."""
 import os
 
 from dotenv import load_dotenv
