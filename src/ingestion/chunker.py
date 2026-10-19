@@ -1,4 +1,3 @@
-"""Page text ko chhote chunks mein todna, metadata (document, page) ke saath."""
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
