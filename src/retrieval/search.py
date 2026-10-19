@@ -1,4 +1,3 @@
-"""Sawal se milte-julte chunks dhoondna, source metadata ke saath."""
 from langchain_chroma import Chroma
 from pydantic import BaseModel
 
