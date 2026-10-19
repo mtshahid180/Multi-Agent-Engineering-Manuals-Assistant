@@ -1,7 +1,3 @@
-"""Baseline RAG: search -> context -> LLM -> cited answer.
-
-Yeh multi-agent system ka muqabla karne ke liye "basic" version hai (Days 17-19).
-"""
 from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 
