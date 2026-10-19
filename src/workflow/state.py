@@ -1,7 +1,3 @@
-"""Shared state: wo data jo agents ke beech guzarta hai.
-
-README ka rule: state mein sirf yeh 6 keys hongi.
-"""
 from typing import Literal, TypedDict
 
 from pydantic import BaseModel, Field
