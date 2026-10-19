@@ -1,4 +1,3 @@
-"""LangGraph: nodes (agents), edges (tarteeb), conditional routing (faislay)."""
 from langgraph.graph import END, START, StateGraph
 
 from src.agents.investigator import investigator
