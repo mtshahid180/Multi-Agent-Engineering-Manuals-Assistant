@@ -1,4 +1,3 @@
-"""Verifier: har claim ko saboot se check karta hai aur revision ka faisla deta hai."""
 from pydantic import BaseModel
 
 from src.services.basic_rag import format_context
