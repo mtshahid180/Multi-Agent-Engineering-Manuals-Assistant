@@ -1,4 +1,3 @@
-"""Investigator: manual se saboot dhoondta hai aur mumkina wajohat nikalta hai."""
 import os
 
 from pydantic import BaseModel, Field
