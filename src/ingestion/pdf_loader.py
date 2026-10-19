@@ -1,4 +1,3 @@
-"""PDF se page-by-page text nikalna, page numbers ke saath."""
 from pathlib import Path
 
 import pymupdf  # PyMuPDF
@@ -6,8 +5,8 @@ from pydantic import BaseModel
 
 
 class PageText(BaseModel):
-    document: str  # e.g. "motor_manual.pdf"
-    page: int      # 1-based page number
+    document: str  
+    page: int     
     text: str
 
 def load_pdf(path: str | Path) -> list[PageText]:
