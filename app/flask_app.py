@@ -1,9 +1,3 @@
-"""Flask UI: PDF upload, problem input, cited report display, Markdown download.
-
-Chalane ka tareeqa (project root se):
-    python -m app.flask_app
-phir browser mein http://127.0.0.1:5000 kholo.
-"""
 import os
 import secrets
 import threading
